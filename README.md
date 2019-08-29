@@ -36,9 +36,19 @@ MongoDB Atlas is used
 
 ### Database
 
+#### Models
+
 All database schemas will go in models folder.
 
 User model is created with one field `username`
+
+#### Server API Endpoints
+
+We need API routes to perform CRUD operations.
+
+Created `routes` folder and `users` route.
+
+In `server.js` the route is imported and used as a middleware.
 
 ## Available Scripts
 
