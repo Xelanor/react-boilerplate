@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Summary
+
+This project will use;
+
+- React
+- Node.js
+- MongoDB (Mongoose)
+- Express
+
+```
+asasd
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
