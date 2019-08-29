@@ -50,6 +50,12 @@ Created `routes` folder and `users` route.
 
 In `server.js` the route is imported and used as a middleware.
 
+### CLIENT (Frontend)
+
+```
+npm install --save react-router-dom
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
