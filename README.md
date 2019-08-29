@@ -51,13 +51,21 @@ In `server.js` the route is imported and used as a middleware.
 ## CLIENT (Frontend)
 
 ```
-npm install --save react-router-dom
+npm install --save react-router-dom concurrently
 ```
 
 ## Connect Client to Server
 
 ```
 npm install --save axios
+```
+
+We use `Concurrently` to run both server and client at the save time but just for **development**.
+
+While in the client folder;
+
+```
+npm run dev
 ```
 
 # React
