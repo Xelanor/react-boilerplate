@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Summary
+# Summary
 
 This project will use;
 
@@ -12,7 +10,7 @@ This project will use;
 This project consists two folders which are client and server.
 Dependencies will be installed seperately into these two directories
 
-### SERVER (Backend)
+## SERVER (Backend)
 
 ```
 npm install --save express cors mongoose dotenv concurrently
@@ -22,11 +20,13 @@ npm install --save express cors mongoose dotenv concurrently
 npm install -g nodemon
 ```
 
-##### In order to run the server
+#### In order to run the server
 
 ```
 nodemon server
 ```
+
+## Database
 
 ### Mongoose Implementation
 
@@ -34,15 +34,13 @@ MongoDB Atlas is used
 
 #### `Paste your connection string into server/.env`
 
-### Database
-
-#### Models
+### Models
 
 All database schemas will go in models folder.
 
 User model is created with one field `username`
 
-#### Server API Endpoints
+### Server API Endpoints
 
 We need API routes to perform CRUD operations.
 
@@ -50,13 +48,23 @@ Created `routes` folder and `users` route.
 
 In `server.js` the route is imported and used as a middleware.
 
-### CLIENT (Frontend)
+## CLIENT (Frontend)
 
 ```
 npm install --save react-router-dom
 ```
 
-## Available Scripts
+## Connect Client to Server
+
+```
+npm install --save axios
+```
+
+# React
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Available Scripts
 
 In the project directory, you can run:
 
