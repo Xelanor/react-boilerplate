@@ -34,6 +34,12 @@ MongoDB Atlas is used
 
 #### `Paste your connection string into server/.env`
 
+### Database
+
+All database schemas will go in models folder.
+
+User model is created with one field `username`
+
 ## Available Scripts
 
 In the project directory, you can run:
