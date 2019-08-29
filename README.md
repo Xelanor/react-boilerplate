@@ -28,6 +28,14 @@ npm install -g nodemon
 nodemon server
 ```
 
+### Mongoose Implementation
+
+MongoDB Atlas is used
+
+```
+**Paste your connection string into server/.env**
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
