@@ -18,6 +18,7 @@
     "server": "npm --prefix ../server run server",
     "dev": "concurrently \"npm run server\" \"npm run start\""
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": "react-app"
   },
