@@ -32,9 +32,7 @@ nodemon server
 
 MongoDB Atlas is used
 
-```
-**Paste your connection string into server/.env**
-```
+#### `Paste your connection string into server/.env`
 
 ## Available Scripts
 
