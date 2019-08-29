@@ -9,8 +9,23 @@ This project will use;
 - MongoDB (Mongoose)
 - Express
 
+This project consists two folders which are client and server.
+Dependencies will be installed seperately into these two directories
+
+### SERVER (Backend)
+
 ```
-asasd
+npm install --save express cors mongoose dotenv concurrently
+```
+
+```
+npm install -g nodemon
+```
+
+##### In order to run the server
+
+```
+nodemon server
 ```
 
 ## Available Scripts
